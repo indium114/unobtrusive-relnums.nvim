@@ -15,7 +15,7 @@ More specifically, I dont' like how visually busy they are by constantly shiftin
 
 ```lua
 return {
-    "stikypiston/unobtrusive-relnums.nvim",
+    "indium114/unobtrusive-relnums.nvim",
     opts = {}
 }
 ```
