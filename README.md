@@ -16,7 +16,7 @@ More specifically, I dont' like how visually busy they are by constantly shiftin
 ```lua
 return {
     "indium114/unobtrusive-relnums.nvim",
-    opts = {}
+    opts = {},
 }
 ```
 
@@ -26,10 +26,10 @@ This is the default configuration with all available options, tweak it as you pl
 
 ```lua
 opts = {
-    step         = 5,        -- The increments that the relative numbers should be in
-    max_distance = 200,      -- The maximum distance that the numbers render for, in lines
-    sign_hl      = "Comment" -- The highlighting group to use as the colour of the numbers
-    priority     = 1         -- The rendering priority on the sign column
-    cursor_icon  = "⬤"       -- The character to render in the sign column on the current line
+    step         = 5,            -- The increments that the relative numbers should be in
+    max_distance = 200,          -- The maximum distance that the numbers render for, in lines
+    sign_hl      = "Comment",    -- The highlighting group to use as the colour of the numbers
+    priority     = 1,            -- The rendering priority on the sign column
+    cursor_icon  = "⬤",         -- The character to render in the sign column on the current line
 }
 ```
